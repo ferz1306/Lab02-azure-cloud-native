@@ -42,11 +42,8 @@ O laboratório abordou:
 - VS Code
 
 📁 Estrutura do Projeto
-Blog/
- └ html/
-      ├ index.html
-      ├ create-post.html
-      └ post-detail.html
+
+Blog/HTML
 
 Dockerfile
 README.md
