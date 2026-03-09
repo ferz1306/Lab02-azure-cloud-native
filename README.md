@@ -119,17 +119,17 @@ Prints do Lab na pasta prints
 
 Durante esse laboratório foram praticados conceitos importantes de Cloud e DevOps, como:
 
-Containerização de aplicações
+- Containerização de aplicações
 
-Criação de imagens Docker
+- Criação de imagens Docker
 
-Uso de registries de containers
+- Uso de registries de containers
 
-Deploy de aplicações containerizadas na Azure
+- Deploy de aplicações containerizadas na Azure
 
-Utilização da Azure CLI
+- Utilização da Azure CLI
 
-Publicação de aplicações na internet
+- Publicação de aplicações na internet
 
 👩‍💻 Autora
 
