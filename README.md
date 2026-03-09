@@ -45,12 +45,7 @@ O laboratório abordou:
 
 Blog/HTML
 
-Dockerfile
-README.md
-index.html 
-create-post.html 
-post-detail.html
-Dockerfile 
+Dockerfile| Scripts | index.html | create-post.html | post-detail.html | Dockerfile 
 
 
 🐳 Containerização com Docker
