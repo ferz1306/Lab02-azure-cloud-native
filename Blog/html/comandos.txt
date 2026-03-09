@@ -1,0 +1,59 @@
+# Conectar ao azure
+az login --tenant "meu tanant"
+
+# criando a extensão do container apps 
+az extension add --name containerapp --upgrade
+
+# nome principal do container apps
+az provider register --namespace Microsoft.App
+
+# monitor para ter logs
+az provider register --namespace Microsoft.OperationalInsights
+
+# criar resource group
+az group create --name bsfernandacontainerapp --location eastus
+
+# Container App Environment, ambiente onde o container irá rodar
+az containerapp env create --name bsfernanda-env-001 --resource-group bsfernandacontainerapp --location eastus
+
+#criacao do container
+az containerapp create --name bsfernanda-app-001 --resource-group bsfernandacontainerapp --environment bsfernanda-env-001 --image mcr.microsoft.com/azuredocs/containerapps-helloworld:latest --target-port 80 --ingress 'external' --query proprieties.configuration.ingress.fqdn
+
+#Docker build - contruir o container
+docker build -t blogbsfernandaacr.azurecr.io/bsfernanda-app-001:latest .
+
+#docker run - rodar o container
+docker run -d -p 80:80 blogbsfernandaacr.azurecr.io/bsfernanda-app-001:latest
+
+# listar as imagens
+docker imagens
+
+# listar quais containers estao rodando
+docker ps
+
+# remover imagens
+docker rmi bsfernanda-app-001
+
+# quando altera algo no codigo precisa fazer build novamente
+
+# parar o container
+docker kill + ID do container
+
+# parar todos os containers
+docker container prune
+
+# rodar localmente parar primeiramente o container depois rodar (para facilitar atualizacao frequente)
+docker run -p 80:80 -v "C:\Users\Barberato\Desktop\azure\Lab02\Blog\html:/usr/share/nginx/html" nginx
+
+Azure
+#deletar resource group
+az group delete --name bsfernandacontainerapp
+
+
+
+
+
+
+
+
+
