@@ -112,12 +112,7 @@ https://bsfernanda-app-001.delightfulcliff-8484e52b.eastus.azurecontainerapps.io
 
 📸 Demonstração
 
-Adicionar aqui prints do projeto:
-
-/images/docker-build.png
-/images/docker-push.png
-/images/container-app.png
-/images/blog-running.png
+Prints do Lab na pasta prints
 
 
 📚 Aprendizados
