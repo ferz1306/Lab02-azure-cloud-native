@@ -47,12 +47,10 @@ Blog/HTML
 
 Dockerfile
 README.md
-Arquivos
-Arquivo	Função
-index.html =========	Página principal do blog
-create-post.html ========= Página para criação de posts
-post-detail.html ========= Página de visualização de posts
-Dockerfile ========= Containerização da aplicação
+index.html 
+create-post.html 
+post-detail.html
+Dockerfile 
 
 
 🐳 Containerização com Docker
