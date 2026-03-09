@@ -112,29 +112,24 @@ https://bsfernanda-app-001.delightfulcliff-8484e52b.eastus.azurecontainerapps.io
 
 📸 Demonstração
 
-Adicionar aqui prints do projeto:
-
-/images/docker-build.png
-/images/docker-push.png
-/images/container-app.png
-/images/blog-running.png
+Prints do Lab na pasta prints
 
 
 📚 Aprendizados
 
 Durante esse laboratório foram praticados conceitos importantes de Cloud e DevOps, como:
 
-Containerização de aplicações
+- Containerização de aplicações
 
-Criação de imagens Docker
+- Criação de imagens Docker
 
-Uso de registries de containers
+- Uso de registries de containers
 
-Deploy de aplicações containerizadas na Azure
+- Deploy de aplicações containerizadas na Azure
 
-Utilização da Azure CLI
+- Utilização da Azure CLI
 
-Publicação de aplicações na internet
+- Publicação de aplicações na internet
 
 👩‍💻 Autora
 
